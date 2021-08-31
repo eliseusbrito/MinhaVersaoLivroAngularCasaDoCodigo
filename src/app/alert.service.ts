@@ -6,4 +6,9 @@ import { Injectable } from '@angular/core';
 export class AlertService {
 
   constructor() { }
+
+  msgAlerta(): void {
+    alert('Livro Angular 2');
+  }
+
 }
